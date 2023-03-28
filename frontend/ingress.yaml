@@ -9,6 +9,7 @@ spec:
     http:
       paths:
         - pathType: Prefix
+          path: /home/ubuntu/Kubernetes-TODO/frontend
           backend:
             service:
               name: frontend
