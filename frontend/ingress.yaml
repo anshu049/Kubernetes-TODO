@@ -8,8 +8,9 @@ spec:
   - host: "todoapp.com"
     http:
       paths:
-        - backend:
-            service:
-              name: frontend
+      - pathType: Prefix
+        backend:
+          service:
+            name: frontend
             port:
               number: 8080
