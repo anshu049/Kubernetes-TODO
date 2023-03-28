@@ -8,10 +8,10 @@ helm upgrade --install ingress-nginx ingress-nginx \
   
   
 # apply yaml files
-kubectl apply -R -f /home/ubuntu/Microservices-TODO/frontend/
-kubectl apply -R -f /home/ubuntu/Microservices-TODO/frontend/
-kubectl apply -R -f /home/ubuntu/Microservices-TODO/log-message-processor/
-kubectl apply -R -f /home/ubuntu/Microservices-TODO/todos-api/
-kubectl apply -R -f /home/ubuntu/Microservices-TODO/users-api/
-kubectl apply -R -f /home/ubuntu/Microservices-TODO/dns-network-policy/
-kubectl apply -R -f /home/ubuntu/Microservices-TODO/redis-queue/
+kubectl apply -R -f /home/ubuntu/Kubernetes-TODO/frontend/
+kubectl apply -R -f /home/ubuntu/Kubernetes-TODO/frontend/
+kubectl apply -R -f /home/ubuntu/Kubernetes-TODO/log-message-processor/
+kubectl apply -R -f /home/ubuntu/Kubernetes-TODO/todos-api/
+kubectl apply -R -f /home/ubuntu/Kubernetes-TODO/users-api/
+kubectl apply -R -f /home/ubuntu/Kubernetes-TODO/dns-network-policy/
+kubectl apply -R -f /home/ubuntu/Kubernetes-TODO/redis-queue/
