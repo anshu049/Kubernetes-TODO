@@ -1,17 +1,19 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-    name: frontend
+  name: frontend
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
 spec:
   ingressClassName: "nginx"
   rules:
-  - host: todo-app.com
+  - host: anshutodo.com
     http:
       paths:
-        - pathType: Prefix
-          backend:
-            service:
-              name: frontend
-              port:
-                number: 8080
-          path: /
+      - path: /
+        pathType: Exact  
+        backend:
+          service:
+            name: frontend
+            port: 
+              number: 8080
