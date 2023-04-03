@@ -8,10 +8,10 @@
   
   
 # apply yaml files
-kubectl apply -R -f /Users/anshukumar/workspace/Kubernetes-TODO/frontend/
-kubectl apply -R -f /Users/anshukumar/workspace/Kubernetes-TODO/frontend/
-kubectl apply -R -f /Users/anshukumar/workspace/Kubernetes-TODO/log-message-processor/
-kubectl apply -R -f /Users/anshukumar/workspace/Kubernetes-TODO/todos-api/
-kubectl apply -R -f /Users/anshukumar/workspace/Kubernetes-TODO/users-api/
-kubectl apply -R -f /Users/anshukumar/workspace/Kubernetes-TODO/dns-network-policy/
-kubectl apply -R -f /Users/anshukumar/workspace/Kubernetes-TODO/redis-queue/
+sudo kubectl apply -R -f /home/ubuntu/Kubernetes-TODO/frontend/
+sudo kubectl apply -R -f /home/ubuntu/Kubernetes-TODO/frontend/
+sudo kubectl apply -R -f /home/ubuntu/Kubernetes-TODO/log-message-processor/
+sudo kubectl apply -R -f /home/ubuntu/Kubernetes-TODO/todos-api/
+sudo kubectl apply -R -f /home/ubuntu/Kubernetes-TODO/users-api/
+sudo kubectl apply -R -f /home/ubuntu/Kubernetes-TODO/dns-network-policy/
+sudo kubectl apply -R -f /home/ubuntu/Kubernetes-TODO/redis-queue/
