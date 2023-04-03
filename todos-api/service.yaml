@@ -7,4 +7,4 @@ spec:
     app: todos-api
   ports:
   - port: 8082
-  type: ClusterIP
+    targetPort: 8092
