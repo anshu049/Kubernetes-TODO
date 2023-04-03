@@ -7,4 +7,4 @@ spec:
     app: auth-api
   ports:
   - port: 8081
-  type: ClusterIP
+    targetPort: 8081
