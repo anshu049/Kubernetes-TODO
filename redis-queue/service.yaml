@@ -7,3 +7,4 @@ spec:
     app: redis-queue
   ports:
   - port: 6379
+    targetPort: 6379
