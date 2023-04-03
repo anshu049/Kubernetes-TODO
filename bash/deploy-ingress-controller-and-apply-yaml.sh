@@ -9,7 +9,7 @@ helm upgrade --install ingress-nginx ingress-nginx \
   
 # apply yaml files
 kubectl apply -R -f /home/cloudshell-user/Kubernetes-TODO/frontend/
-skubectl apply -R -f /home/cloudshell-user/Kubernetes-TODO/frontend/
+kubectl apply -R -f /home/cloudshell-user/Kubernetes-TODO/frontend/
 kubectl apply -R -f /home/cloudshell-user/Kubernetes-TODO/log-message-processor/
 kubectl apply -R -f /home/cloudshell-user/Kubernetes-TODO/todos-api/
 kubectl apply -R -f /home/cloudshell-user/Kubernetes-TODO/users-api/
