@@ -2,8 +2,6 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: frontend
-  annotations:
-    kubernetes.io/ingress.class: "nginx"
 spec:
   ingressClassName: "nginx"
   rules:
@@ -11,7 +9,7 @@ spec:
     http:
       paths:
       - path: /
-        pathType: Exact  
+        pathType: Prefix
         backend:
           service:
             name: frontend
